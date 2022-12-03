@@ -1,4 +1,6 @@
 <?php
+define( 'siteurl', 'http://localhost/wordpress' );
+define( 'home', 'http://localhost/wordpress' );	
 /**
  * The base configuration for WordPress
  *
@@ -20,7 +22,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordPress_test' );
+define( 'DB_NAME', 'word_press' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -83,6 +85,8 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+define( 'WP_HOME', 'http://localhost/wordpress/' );
+define( 'WP_SITEURL', 'http://localhost/wordpress/' );
 /* Add any custom values between this line and the "stop editing" line. */
 
 
